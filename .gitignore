@@ -1,0 +1,51 @@
+# --- Robot Framework output files ---
+output.xml
+log.html
+report.html
+xunit.xml
+debug.log
+*.png        # Screenshots (Selenium / Browser library)
+*.jpg
+*.jpeg
+
+# Robot temp dirs (if using pabot or parallel runs)
+pabot_results/
+pabot_tmp/
+
+# Custom results directory (if you use -d results or similar)
+results/
+reports/
+logs/
+
+# --- Python virtual environments ---
+venv/
+.venv/
+env/
+.env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# If using Python-based libraries with Robot
+*.log
+*.db
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.iml
+
+# --- Common project clutter ---
+*.swp
+*.tmp
+*.bak
+
+node_modules/
+playwright/.local-browsers/
+.robotcache/

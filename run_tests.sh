@@ -1,0 +1,1 @@
+robot --console verbose -d results tests
