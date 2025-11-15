@@ -23,9 +23,10 @@ jobs:
       - name: Install dependencies
         run: |
           pip install robotframework
-          # Install any other libraries your tests need:
-          # pip install robotframework-seleniumlibrary
-          # pip install robotframework-browser
+          pip install robotframework-browser
+
+      - name: Initialize Playwright browsers
+        run: rfbrowser init
 
       - name: Make test script executable
         run: chmod +x run_tests.sh
