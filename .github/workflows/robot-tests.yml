@@ -24,6 +24,7 @@ jobs:
         run: |
           pip install robotframework
           pip install robotframework-browser
+          pip install robotframework-requests
 
       - name: Initialize Playwright browsers
         run: rfbrowser init
