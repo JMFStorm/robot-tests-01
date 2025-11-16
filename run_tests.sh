@@ -1,4 +1,5 @@
 #!/bin/bash
+
 set -e  # fail on first error
 
 mkdir -p results
